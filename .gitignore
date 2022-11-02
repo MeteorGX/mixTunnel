@@ -10,8 +10,11 @@ mixTunnelServer/target/
 !mixTunnelClient/.mvn/wrapper/maven-wrapper.jar
 !mixTunnelServer/.mvn/wrapper/maven-wrapper.jar
 
-!**/src/main/**
-!**/src/test/**
+!mixTunnelClient/**/src/main/**
+!mixTunnelServer/**/src/main/**
+
+!mixTunnelClient/**/src/test/**
+!mixTunnelServer/**/src/test/**
 
 
 
