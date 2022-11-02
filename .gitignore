@@ -1,0 +1,42 @@
+HELP.md
+mixTunnelClient/HELP.md
+mixTunnelServer/HELP.md
+
+target/
+mixTunnelClient/target/
+mixTunnelServer/target/
+
+!.mvn/wrapper/maven-wrapper.jar
+!mixTunnelClient/.mvn/wrapper/maven-wrapper.jar
+!mixTunnelServer/.mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**
+!**/src/test/**
+
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
